@@ -34,8 +34,3 @@ do {
 
 
 
-
-var contact = { "name": "Ahmed", "number": "01144633648" };
-var cm = [];
-cm.push(contact);
-console.log(cm[0]);
