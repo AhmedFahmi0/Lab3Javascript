@@ -21,7 +21,7 @@ do {
                 alert("Phonebook is empty");
             } else {
                 for (const cont of phoneBook) {
-                    if (cont.name == Sname || cont.number == Snumber) console.log(cont);
+                    if (cont.name == Sname || cont.number == Snumber) alert(JSON.stringify(cont));
                 }
 
             }
